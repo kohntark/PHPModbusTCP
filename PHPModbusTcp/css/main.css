@@ -1,0 +1,124 @@
+
+
+body {
+    font-size: 1em;
+    color: #781351;
+
+
+}
+
+
+table {
+    border-collapse: collapse;
+    /*min-width: 1000px;*/
+
+}
+
+thead {
+    /*color: #fff;*/
+    background: #fee3ad;
+    border: 1px solid #781351;
+    padding: 0px 6px;
+    text-align: center;
+
+}
+
+tbody {
+    text-align: center;
+
+}
+
+tfoot {
+    color: #fff;
+    font-size: 0.75em;
+    background: #fee3ad;
+    border: 1px solid #781351;
+    padding: 0px 6px;
+    text-align: center;
+}
+
+th {
+    /*background: #ffa20c;*/
+    font-size: 1em;
+    height: 35px;
+    background-image: url('img/th_bkgrd.png');
+    background-repeat: repeat-x;
+}
+
+.th_1 {
+    background-image: url('img/th_bkgrd_1.png');
+}
+
+td {
+    /*border-style: solid;*/
+    /*border-width:1px;*/
+    border: 1px solid #781351;
+}
+
+
+.error {
+    color: red;
+}
+
+label {
+    /*border: 1px solid red;*/
+    font-size: 0.8em;
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+
+}
+
+legend {
+    font-size: 0.8em;
+    color: #fff;
+    background: #ffa20c;
+    border: 1px solid #781351;
+    padding: 0px 6px;
+}
+
+input[type=text] {
+    font-size: 0.8em;
+    color: #781351;
+    background: #fee3ad;
+    border: 1px solid #781351;
+    margin: 1px 2px 5px 2px;
+}
+
+input[type=text]:focus {
+    background-color: #FEA300;
+    color:#BE1351;
+}
+
+input[type=button], input[type=submit], input[type=reset] { 
+
+    background: #fee3ad;
+    font-weight:bold;
+    border: 2px outset #781351;
+    margin: 1px 2px 5px 2px;
+    cursor:pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    border:2px outset white;
+    background-color: #FEA300;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+    border:2px outset red;
+    background-color: #FEA300;
+}
+
+
+
+select {
+    font-size: 0.9em;
+    color: #781351;
+    background: #fee3ad;
+    border: 1px solid #781351;
+}
+
+select:focus {
+    background-color: #FEA300;
+    color:#BE1351;
+}

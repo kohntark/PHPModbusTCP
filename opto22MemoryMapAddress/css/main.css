@@ -1,0 +1,162 @@
+/* 
+    Document   : main.css
+    Created on : 22 août 2010, 10:31:07
+    Author     : Kohntark <kohntark@kohntark.fr>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+    font-size: 11.25px;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    color: black;
+}
+
+/*
+    Document   : main.css
+    Created on : 22 août 2010, 10:31:07
+    Author     : Kohntark <kohntark@kohntark.fr>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+    font-size: 11.25px;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.imgMapAddr {
+    /*margin:10px;*/
+
+    width:435px;
+    height:403px;
+    margin: 15px auto;
+}
+
+div.mapAdress{
+    background-color: #CCCCCC;
+    width:435px;
+    height:398px;
+    margin:10px auto;
+    padding:5px 4px 0px 4px;
+}
+
+
+div.convertText {
+    color:#5079A5;
+    line-height: 16px;
+}
+
+
+.address {
+    color:black;
+    font-size: 11px;
+}
+
+
+.note {
+    margin:0px;
+
+    word-spacing: 0.8px;
+}
+
+input {
+    color:black;
+}
+
+
+
+input[type=text] {
+    color:black;
+    border-color:#848484;
+
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-left-style: inset;
+    border-left-width: 1px;
+
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    min-width: 9px;
+    border-right-style: inset;
+    border-right-width: 1px;
+
+    background-color: #ffffff;
+}
+
+input[type=text].unitHexAddr {
+    width: 9px;
+
+    font-size:9.5px;
+    background-color: #CCCCCC;
+    font-size:9.5px;
+}
+
+input[type=text].hexAddrInput {
+    font-size:9.5px;
+    width:110px;
+    margin-left:20px;
+    letter-spacing: 7.2px;
+
+}
+
+input[type=text].converted {
+    width:40px;
+    min-width: 30px;
+    height: 12px;
+
+    background-color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+    /*min-width: 1000px;*/
+    border-style:solid;
+    border-width: 1px;
+}
+
+
+tr {
+    background-color: #FFF0D0;
+    height: 17px;
+
+}
+
+td {
+    border: 1px solid black;
+    width: 9.05px;
+
+    font-size:9.5px;
+    background-color: #CCCCCC;
+}
+
+td.unitBinAddr {
+    border-right-style: dotted;
+    border-width: 1px 1px 1px 0px;
+}
+
+td.unitBinAddrSelected {
+    background-color: #FFFFFF;
+}
+
+td.endByte {
+    border-style:solid;
+    border-right-color: red;
+}
